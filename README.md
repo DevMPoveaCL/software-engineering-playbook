@@ -11,25 +11,65 @@ Each topic below contains **3 sub-levels of deep-dive knowledge**. The structure
 ```
 ROOT (Master Index)
 │
-├── Architecture & Best Practices
-│   ├── 01 - SOLID & Clean Code Principles
-│   ├── 02 - Design Patterns
-│   └── 03 - Hexagonal Architecture
+├── 🏛️ ARCHITECTURE_AND_BEST_PRACTICES
+│   ├── 01-SOLID-Principles
+│   ├── 02-Clean-Hexagonal
+│   └── 03-System-Design
 │
-├── UX, UI & Accessibility
-│   ├── 01 - Design Fundamentals
-│   ├── 02 - WCAG & ADA Standards
-│   └── 03 - Inclusive Design
+├── ☕ JAVA
+│   ├── 01-OOP-Pillars
+│   ├── 02-Interfaces-and-Polymorphism
+│   └── 03-Project-Structure
 │
-├── ⚛️ React + SpringBoot (FullStack)
-│   ├── 01 - React Core (Hooks, State, Components)
-│   ├── 02 - Spring Boot API (REST, JWT, JPA)
-│   └── 03 - FullStack Integration
+├── 💛 JS
+│   ├── 01-Core-Syntax-and-Types
+│   ├── 02-DOM-and-Events
+│   └── 03-Async-and-APIs
 │
-└── 📱 Ionic + Angular + Firebase + Capacitor (Mobile)
-    ├── 01 - Angular Architecture (MVC, DI, Guards)
-    ├── 02 - Ionic UI (Platform-Adaptive Components)
-    └── 03 - Firebase + Capacitor (BaaS + Native Wrapper)
+├── 🎨 CSS
+│   ├── 01-Box-Model-and-Flow
+│   ├── 02-Flexbox-and-Grid
+│   └── 03-Responsive-Architecture
+│
+├── 🌐 HTML
+│   ├── 01-Semantic-Web
+│   ├── 02-Forms-and-Inputs
+│   └── 03-SEO-and-Metadata
+│
+├── ⚛️ REACT+SPRINGBOOT
+│   ├── 01-React-Core
+│   ├── 02-Spring-Boot-API
+│   └── 03-FullStack-Integration
+│
+├── 📱 IONIC+ANGULAR+FIREBASE+CAPACITOR
+│   ├── 01-Angular-Architecture
+│   ├── 02-Ionic-UI
+│   └── 03-Firebase-Capacitor
+│
+├── 🐙 GIT
+│   ├── 01-Git-Fundamentals
+│   ├── 02-GitHub-Collaboration
+│   └── 03-CI-CD-Workflows
+│
+├── 🐳 DOCKER
+│   ├── 01-Images-and-Containers
+│   ├── 02-Volumes-and-Storage
+│   └── 03-Docker-Compose
+│
+├── 🌎 NETWORKING
+│   ├── 01-Web-Protocols
+│   ├── 02-Dev-Ports-and-Envs
+│   └── 03-Security-and-JWT
+│
+├── 🐘 SQL
+│   ├── 01-Relational-Design
+│   ├── 02-Queries-and-Joins
+│   └── 03-Indexes-and-Performance
+│
+└── 🎨 UX_UI_ACCESSIBILITY
+    ├── 01-Visual-Design-Rules
+    ├── 02-Accessibility-WCAG
+    └── 03-Cognitive-Doc-Design
 ```
 
 ---
@@ -41,7 +81,7 @@ To make the code we write professional, easy to maintain, and readable by others
 ### 1. KISS (Keep It Simple, Stupid)
 - **What is it?** Code should be as simple as possible.
 - **Why?** Simple code is easier to read, understand, and fix when it breaks.
-- **Example**: 
+- **Example**:
   - ❌ *Bad:* 10 complex functions to calculate a discount.
   - ✅ *Good:* One clear function: `return price - (price * discount);`.
 
@@ -58,7 +98,7 @@ To make the code we write professional, easy to maintain, and readable by others
 ### 4. Clean Code
 - **What is it?** Write code for humans, not machines.
 - **Why?** Facilitates teamwork and future improvements.
-- **Example**: 
+- **Example**:
   - ❌ *Bad:* `let x = 10;` (What is x?)
   - ✅ *Good:* `let numberOfDays = 10;` (Self-explanatory)
 
@@ -76,48 +116,20 @@ To make the code we write professional, easy to maintain, and readable by others
 
 ## 🗂️ Repository Structure
 
-### 🎯 Core Topics
-
-| Topic | Description | Deep Dive Levels |
-|-------|-------------|------------------|
-| 🏛️ **[Architecture and Best Practices](./ARCHITECTURE_AND_BEST_PRACTICES)** | SOLID, DRY, KISS, TDD, Clean Architecture and Hexagonal Architecture | 3 subfolders |
-| 🎨 **[UX, UI and Accessibility](./UX_UI_ACCESSIBILITY)** | Beautiful, legal, and inclusive interfaces (WCAG, ADA standards) | Multiple guides |
-| ☕ **[JAVA](./JAVA)** | Object-oriented and basic projects | Variables, loops, OOP |
-| 💛 **[JavaScript](./JS)** | Array methods, DOM manipulation, fundamentals | Core concepts |
-| ⚛️ **[React + SpringBoot](./REACT+SPRINGBOOT)** | FullStack applications | **3 sublevels** |
-| 🐳 **[Docker](./DOCKER)** | Command sheets for containers | Packaging apps |
-| 🌐 **[Networking](./NETWORKING)** | Network concepts, URLs and HTTP status codes | OSI model |
-| 🐙 **[Git](./GIT)** | Visual commands and best practices | Commits, branches |
-| 📱 **[Ionic + Angular](./IONIC+ANGULAR+FIREBASE+CAPACITOR)** | Mobile apps with web technologies | **3 sublevels** |
-| 🎨 **[HTML & CSS](./HTML)** | Web structure and styles | Flexbox, Grid |
-| 🐘 **[SQL](./SQL)** | Relational databases | Queries, joins |
-
----
-
-## 🔑 Key Architecture Diagrams
-
-### FullStack Request Flow
-```
-┌─────────────┐      HTTP/JWT       ┌──────────────────┐      SQL       ┌─────────────────┐
-│   React     │ ◄──────────────────► │  Spring Boot     │ ◄────────────► │  PostgreSQL/    │
-│  Frontend   │     JSON REST       │  Backend API     │                │  MySQL          │
-│  (SPA)      │                     │  (Java)          │                │  (Relational)   │
-└─────────────┘                     └──────────────────┘                └─────────────────┘
-```
-
-### Angular Module Architecture
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        AppModule                                 │
-├────────────────┬────────────────────────┬───────────────────────┤
-│    Core        │        Shared         │      Feature          │
-│   Module       │        Module         │      Modules          │
-│                │                        │                       │
-│  - Auth Guard  │  - Reusable Components │  - Dashboard          │
-│  - Singleton   │  - Shared Pipes        │  - Products            │
-│    Services    │  - Common Directives   │  - Orders              │
-└────────────────┴────────────────────────┴───────────────────────┘
-```
+| # | Topic | Description | Subfolders |
+|---|-------|-------------|------------|
+| 01 | 🏛️ **[ARCHITECTURE_AND_BEST_PRACTICES](./ARCHITECTURE_AND_BEST_PRACTICES)** | SOLID, Clean Architecture, Hexagonal Architecture, System Design | 3 sublevels |
+| 02 | ☕ **[JAVA](./JAVA)** | OOP Pillars, Interfaces and Polymorphism, Project Structure | 3 sublevels |
+| 03 | 💛 **[JS](./JS)** | Core Syntax and Types, DOM and Events, Async and APIs | 3 sublevels |
+| 04 | 🎨 **[CSS](./CSS)** | Box Model and Flow, Flexbox and Grid, Responsive Architecture | 3 sublevels |
+| 05 | 🌐 **[HTML](./HTML)** | Semantic Web, Forms and Inputs, SEO and Metadata | 3 sublevels |
+| 06 | ⚛️ **[REACT+SPRINGBOOT](./REACT+SPRINGBOOT)** | React Core, Spring Boot API, FullStack Integration | 3 sublevels |
+| 07 | 📱 **[IONIC+ANGULAR+FIREBASE+CAPACITOR](./IONIC+ANGULAR+FIREBASE+CAPACITOR)** | Angular Architecture, Ionic UI, Firebase and Capacitor | 3 sublevels |
+| 08 | 🐙 **[GIT](./GIT)** | Git Fundamentals, GitHub Collaboration, CI/CD Workflows | 3 sublevels |
+| 09 | 🐳 **[DOCKER](./DOCKER)** | Images and Containers, Volumes and Storage, Docker Compose | 3 sublevels |
+| 10 | 🌎 **[NETWORKING](./NETWORKING)** | Web Protocols, Dev Ports and Envs, Security and JWT | 3 sublevels |
+| 11 | 🐘 **[SQL](./SQL)** | Relational Design, Queries and Joins, Indexes and Performance | 3 sublevels |
+| 12 | 🎨 **[UX_UI_ACCESSIBILITY](./UX_UI_ACCESSIBILITY)** | Visual Design Rules, Accessibility WCAG, Cognitive Doc Design | 3 sublevels |
 
 ---
 
