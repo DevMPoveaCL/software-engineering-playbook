@@ -52,3 +52,5 @@ In professional development, **semantics is law**. You must use tags that exactl
 ---
 ### 🔗 Global Navigation
 [⬅️ Previous Topic: CSS](../CSS/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: React + SpringBoot](../REACT+SPRINGBOOT/README.md)
+<br>
+**[⬇️ Dive In: 01-Semantic-Web](./01-Semantic-Web/README.md)**

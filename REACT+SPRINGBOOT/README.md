@@ -81,3 +81,5 @@ Frontend                          Backend
 ---
 ### 🔗 Global Navigation
 [⬅️ Previous Topic: HTML](../HTML/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: Ionic + Angular](../IONIC+ANGULAR+FIREBASE+CAPACITOR/README.md)
+<br>
+**[⬇️ Dive In: 01-React-Core](./01-React-Core/README.md)**
