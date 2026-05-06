@@ -1,6 +1,6 @@
 # 02 — Flexbox and Grid
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 01-Box-Model-and-Flow](../01-Box-Model-and-Flow/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03-Responsive-Architecture](../03-Responsive-Architecture/README.md)
 
 ---
 

@@ -149,9 +149,7 @@ export class LoginPage implements OnInit {
 
 ## 🔗 Related Topics
 
-- **[⬅️ Back to Parent](../README.md)**
-- **[⬅️ Previous: Angular Architecture](../01-Angular-Architecture/README.md)**
-- **[➡️ Next: Firebase + Capacitor](../03-Firebase-Capacitor/README.md)**
+- **[⬅️ Previous: Angular Architecture](../01-Angular-Architecture/README.md)** | **[⬅️ Back to Parent](../README.md)** | **[➡️ Next: Firebase + Capacitor](../03-Firebase-Capacitor/README.md)**
 
 ---
 

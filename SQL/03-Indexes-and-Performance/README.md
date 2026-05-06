@@ -153,4 +153,4 @@ The catalog (index) is smaller than the full shelf, but it tells you exactly whe
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 02 Queries and Joins](../02-Queries-and-Joins/README.md) | [⬅️ Back to Parent](../README.md)

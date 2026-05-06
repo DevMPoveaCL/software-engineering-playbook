@@ -267,4 +267,4 @@
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 01 SOLID-Principles](../01-SOLID-Principles/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 System-Design](../03-System-Design/README.md)

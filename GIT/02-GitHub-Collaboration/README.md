@@ -304,4 +304,4 @@ gh pr review 123 --approve --comment "LGTM!"
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: Git Fundamentals](../01-Git-Fundamentals/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: CI/CD Workflows](../03-CI-CD-Workflows/README.md)

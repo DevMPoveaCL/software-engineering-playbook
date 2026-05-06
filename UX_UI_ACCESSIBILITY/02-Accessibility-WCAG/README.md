@@ -1,6 +1,6 @@
 # 02 — Accessibility (WCAG)
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 01 Visual Design Rules](../01-Visual-Design-Rules/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 Cognitive Doc Design](../03-Cognitive-Doc-Design/README.md)
 
 ---
 

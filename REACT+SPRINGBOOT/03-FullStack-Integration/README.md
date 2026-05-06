@@ -199,9 +199,7 @@ const pizzas = await fetch('/api/pizzas?page=0&size=20').then(r => r.json());
 
 ## 🔗 Related Topics
 
-- **[⬅️ Back to Parent](../README.md)**
-- **[⬅️ Previous: Spring Boot API](../02-Spring-Boot-API/README.md)**
-- **[➡️ React Core](../01-React-Core/README.md)**
+[⬅️ Previous: 02-Spring-Boot-API](../02-Spring-Boot-API/README.md) | [⬅️ Back to Parent](../README.md)
 
 ---
 

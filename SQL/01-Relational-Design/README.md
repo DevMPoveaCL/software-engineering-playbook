@@ -164,4 +164,4 @@ When requirements change (and they will), a well-normalized database adapts. Add
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 Queries and Joins](../02-Queries-and-Joins/README.md)

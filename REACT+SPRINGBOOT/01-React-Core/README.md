@@ -148,8 +148,7 @@ src/
 
 ## 🔗 Related Topics
 
-- **[⬅️ Back to Parent](../README.md)**
-- **[➡️ Next: Spring Boot API](../02-Spring-Boot-API/README.md)**
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02-Spring-Boot-API](../02-Spring-Boot-API/README.md)
 
 ---
 

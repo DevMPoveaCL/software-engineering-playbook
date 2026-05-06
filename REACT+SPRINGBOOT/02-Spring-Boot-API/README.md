@@ -166,9 +166,7 @@ public Pizza createPizza(@Valid @RequestBody PizzaDTO dto) {
 
 ## 🔗 Related Topics
 
-- **[⬅️ Back to Parent](../README.md)**
-- **[⬅️ Previous: React Core](../01-React-Core/README.md)**
-- **[➡️ Next: FullStack Integration](../03-FullStack-Integration/README.md)**
+[⬅️ Previous: 01-React-Core](../01-React-Core/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03-FullStack-Integration](../03-FullStack-Integration/README.md)
 
 ---
 

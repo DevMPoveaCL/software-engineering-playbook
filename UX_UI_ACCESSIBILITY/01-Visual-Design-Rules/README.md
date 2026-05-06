@@ -1,6 +1,6 @@
 # 01 — Visual Design Rules
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 Accessibility (WCAG)](../02-Accessibility-WCAG/README.md)
 
 ---
 

@@ -211,4 +211,4 @@ A CROSS JOIN on two million-row tables crashes databases. Always know your cardi
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 01 Relational Design](../01-Relational-Design/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 Indexes and Performance](../03-Indexes-and-Performance/README.md)
