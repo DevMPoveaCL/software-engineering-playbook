@@ -47,3 +47,7 @@ The number one nightmare in software development is the phrase: *"But... it work
 - **Image:** The static, pre-packaged template ready to execute (e.g., a clean Ubuntu or MySQL image).
 - **Container:** The living and running instance of an Image.
 - **Port Mapping:** The container is isolated. If a web server runs inside on port `80`, you must "map" it to a port on your physical machine to view it in your browser.
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: Git](../GIT/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: Networking](../NETWORKING/README.md)

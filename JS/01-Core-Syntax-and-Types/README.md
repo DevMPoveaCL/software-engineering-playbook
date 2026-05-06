@@ -1,7 +1,5 @@
 # 01 — Core Syntax and Types
 
-[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 DOM-and-Events](../02-DOM-and-Events/README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -352,3 +350,5 @@ const { name: userName, city: hometown = "Unknown" } = user;
 > "A developer who understands `const`, `let`, and immutable patterns writes code that other developers can reason about without headaches."
 >
 > "If your array code is full of `.push()` and `.pop()`, you're writing Java like it's 2010. Embrace `map`, `filter`, and `reduce` — they make debugging trivial because the original data is always preserved."
+
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 DOM-and-Events](../02-DOM-and-Events/README.md)

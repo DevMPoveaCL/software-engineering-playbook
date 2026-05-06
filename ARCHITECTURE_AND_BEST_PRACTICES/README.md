@@ -99,3 +99,7 @@ Here are three common scenarios where one shines more than the other (though the
 | [🎯 System Design](./03-System-Design/README.md) | Scaling, caching, queues, APIs, designing for failure |
 
 > **Start here if you're new:** Begin with [SOLID Principles](./01-SOLID-Principles/README.md) to understand the foundational rules, then explore [Clean & Hexagonal](./02-Clean-Hexagonal/README.md) for architectural patterns.
+
+---
+### 🔗 Global Navigation
+[🏠 Master Index](../README.md) | [➡️ Next Topic: JAVA](../JAVA/README.md)

@@ -46,3 +46,7 @@ Think of it as a massive, excellently organized office file cabinet, full of dra
 - **Primary Key:** The unique, non-repeating identifier for a row. Like a person's ID, passport, or social security number.
 - **Foreign Key:** The cross-reference. It's placing the customer's "Primary Key" on their invoice row, permanently linking them.
 - **CRUD:** Acronym for **C**reate, **R**ead, **U**pdate, **D**elete. The four basic operations of any data system.
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: Networking](../NETWORKING/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: UX, UI & Accessibility](../UX_UI_ACCESSIBILITY/README.md)

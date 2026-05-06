@@ -1,7 +1,5 @@
 # 01 — Box Model and Flow
 
-[⬅️ Back to Parent](../README.md) | [➡️ Next: 02-Flexbox-and-Grid](../02-Flexbox-and-Grid/README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -349,3 +347,5 @@ This folder teaches the **fundamental CSS model** — how elements are sized, sp
 > "Every CSS bug I've ever debugged came from misunderstanding the box model. Padding adds inside, margin adds outside, and the browser's default `content-box` will ruin your day until you set `border-box` globally."
 >
 > "If you're using `position: absolute` to center something, you're fighting the browser. Use flexbox instead."
+
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02-Flexbox-and-Grid](../02-Flexbox-and-Grid/README.md)
