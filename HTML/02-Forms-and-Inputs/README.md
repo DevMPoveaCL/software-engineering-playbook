@@ -179,4 +179,4 @@ Forms that are confusing or lack clear labels **increase drop-off rates**. Users
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 01-Semantic-Web](../01-Semantic-Web/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03-SEO-and-Metadata](../03-SEO-and-Metadata/README.md)

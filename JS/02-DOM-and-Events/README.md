@@ -1,6 +1,6 @@
 # 02 — DOM and Events
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 01 Core-Syntax-and-Types](../01-Core-Syntax-and-Types/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 Async-and-APIs](../03-Async-and-APIs/README.md)
 
 ---
 

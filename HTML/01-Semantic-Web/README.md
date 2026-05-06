@@ -161,4 +161,4 @@ Sites with proper semantics rank higher. It's not magic — it's machine-readabl
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02-Forms-and-Inputs](../02-Forms-and-Inputs/README.md)

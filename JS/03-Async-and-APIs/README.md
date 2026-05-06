@@ -1,6 +1,6 @@
 # 03 — Async and APIs
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 02 DOM-and-Events](../02-DOM-and-Events/README.md) | [⬅️ Back to Parent](../README.md)
 
 ---
 

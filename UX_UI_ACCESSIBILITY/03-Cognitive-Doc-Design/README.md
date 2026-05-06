@@ -1,6 +1,6 @@
 # 03 — Cognitive Doc Design
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 02 Accessibility (WCAG)](../02-Accessibility-WCAG/README.md) | [⬅️ Back to Parent](../README.md)
 
 ---
 

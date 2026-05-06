@@ -1,6 +1,6 @@
 # 01 — Core Syntax and Types
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 DOM-and-Events](../02-DOM-and-Events/README.md)
 
 ---
 

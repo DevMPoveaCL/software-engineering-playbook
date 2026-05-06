@@ -326,4 +326,4 @@ Your light bulb shouldn't be **permanently soldered** to your house's electrical
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 Clean-Hexagonal](../02-Clean-Hexagonal/README.md)

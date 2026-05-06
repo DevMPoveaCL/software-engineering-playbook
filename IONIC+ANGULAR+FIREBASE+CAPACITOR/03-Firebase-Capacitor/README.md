@@ -165,9 +165,7 @@ src/
 
 ## 🔗 Related Topics
 
-- **[⬅️ Back to Parent](../README.md)**
-- **[⬅️ Previous: Ionic UI](../02-Ionic-UI/README.md)**
-- **[➡️ Angular Architecture](../01-Angular-Architecture/README.md)**
+- **[⬅️ Previous: Ionic UI](../02-Ionic-UI/README.md)** | **[⬅️ Back to Parent](../README.md)**
 
 ---
 

@@ -1,6 +1,6 @@
 # 03 — Responsive Architecture
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 02-Flexbox-and-Grid](../02-Flexbox-and-Grid/README.md) | [⬅️ Back to Parent](../README.md)
 
 ---
 

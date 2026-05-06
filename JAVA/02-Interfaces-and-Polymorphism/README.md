@@ -225,4 +225,4 @@ Requirements change. You won't know every future requirement. With interfaces, y
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Previous: 01 OOP-Pillars](../01-OOP-Pillars/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 Project-Structure](../03-Project-Structure/README.md)

@@ -295,4 +295,4 @@ Inheritance and polymorphism mean you're not writing the same code twice. One bu
 
 ---
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 Interfaces-and-Polymorphism](../02-Interfaces-and-Polymorphism/README.md)

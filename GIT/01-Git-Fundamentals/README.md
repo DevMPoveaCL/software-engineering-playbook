@@ -224,4 +224,4 @@ git stash list           # See all your stashes
 | **HEAD** | Your current position in the commit timeline |
 | **Origin** | The default name for the remote repository |
 
-[⬅️ Back to Parent](../README.md)
+[⬅️ Back to Parent](../README.md) | [➡️ Next: GitHub Collaboration](../02-GitHub-Collaboration/README.md)
