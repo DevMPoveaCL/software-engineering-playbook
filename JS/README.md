@@ -55,3 +55,5 @@ JavaScript (JS) is a **dynamic and asynchronous** language. It doesn't read top-
 ---
 ### 🔗 Global Navigation
 [⬅️ Previous Topic: JAVA](../JAVA/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: CSS](../CSS/README.md)
+<br>
+**[⬇️ Dive In: 01-Core-Syntax-and-Types](./01-Core-Syntax-and-Types/README.md)**

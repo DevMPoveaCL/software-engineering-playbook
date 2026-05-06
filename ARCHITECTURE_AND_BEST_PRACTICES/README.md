@@ -103,3 +103,5 @@ Here are three common scenarios where one shines more than the other (though the
 ---
 ### 🔗 Global Navigation
 [🏠 Master Index](../README.md) | [➡️ Next Topic: JAVA](../JAVA/README.md)
+<br>
+**[⬇️ Dive In: 01-SOLID-Principles](./01-SOLID-Principles/README.md)**

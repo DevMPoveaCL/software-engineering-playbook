@@ -92,3 +92,5 @@ Web App ──► iOS (.ipa)
 ---
 ### 🔗 Global Navigation
 [⬅️ Previous Topic: React + SpringBoot](../REACT+SPRINGBOOT/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: Git](../GIT/README.md)
+<br>
+**[⬇️ Dive In: 01-Angular-Architecture](./01-Angular-Architecture/README.md)**
