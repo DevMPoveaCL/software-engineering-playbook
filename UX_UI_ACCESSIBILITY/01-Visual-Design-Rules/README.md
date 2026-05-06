@@ -1,7 +1,5 @@
 # 01 — Visual Design Rules
 
-[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 Accessibility (WCAG)](../02-Accessibility-WCAG/README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -290,3 +288,5 @@ WITH WHITE SPACE:                    WITHOUT WHITE SPACE:
 > "White space is not empty space. It's the pause that gives meaning to the note. Novice designers fill every pixel. Expert designers know what to leave alone."
 >
 > "If you have to explain your hierarchy, it doesn't exist. Good hierarchy is self-evident."
+
+[⬅️ Back to Parent](../README.md) | [➡️ Next: 02 Accessibility (WCAG)](../02-Accessibility-WCAG/README.md)
