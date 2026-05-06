@@ -50,3 +50,7 @@ It's a Version Control system that saves the "photo album" of every change you m
 | [🔄 CI/CD Workflows](./03-CI-CD-Workflows/README.md) | Continuous Integration, Continuous Deployment, automation pipelines |
 
 > **Start here if you're new:** Begin with [Git Fundamentals](./01-Git-Fundamentals/README.md), then move to [GitHub Collaboration](./02-GitHub-Collaboration/README.md) when working with a team.
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: Ionic + Angular](../IONIC+ANGULAR+FIREBASE+CAPACITOR/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: Docker](../DOCKER/README.md)

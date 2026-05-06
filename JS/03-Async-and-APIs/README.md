@@ -1,7 +1,5 @@
 # 03 — Async and APIs
 
-[⬅️ Previous: 02 DOM-and-Events](../02-DOM-and-Events/README.md) | [⬅️ Back to Parent](../README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -393,3 +391,5 @@ const deep2 = structuredClone(original); // Modern alternative
 > "Async bugs are the hardest to debug because the code that fails isn't the code that shows the error. Always wrap your async code in try/catch and log which operation failed."
 >
 > "Promise.all() is not magic — if ANY promise rejects, the entire thing rejects. Use Promise.allSettled() when you want partial results."
+
+[⬅️ Previous: 02 DOM-and-Events](../02-DOM-and-Events/README.md) | [⬅️ Back to Parent](../README.md)

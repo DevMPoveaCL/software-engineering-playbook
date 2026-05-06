@@ -77,3 +77,7 @@ Frontend                          Backend
 ---
 
 *Happy coding! Clean code = clean mind.*
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: HTML](../HTML/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: Ionic + Angular](../IONIC+ANGULAR+FIREBASE+CAPACITOR/README.md)

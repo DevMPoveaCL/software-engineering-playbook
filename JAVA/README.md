@@ -1,23 +1,23 @@
-# ☕ Java — Fundamentals and Object-Oriented Programming
+﻿# â˜• Java â€” Fundamentals and Object-Oriented Programming
 
-Java is a strict, strongly typed, and 100% object-oriented language. Its core philosophy is *"Write Once, Run Anywhere"* — thanks to the Java Virtual Machine (JVM).
+Java is a strict, strongly typed, and 100% object-oriented language. Its core philosophy is *"Write Once, Run Anywhere"* â€” thanks to the Java Virtual Machine (JVM).
 
 This section covers the key concepts to master Java, moving from simple scripts to a true architectural mindset.
 
 ---
 
-## 📊 Objective Table: Java Analysis
+## ðŸ“Š Objective Table: Java Analysis
 
 | Aspect | Didactic Explanation |
 |--------|----------------------|
 | **What is it?** | A strict, strongly typed, 100% object-oriented language that runs on a Virtual Machine (JVM). |
-| **Benefits** | "Write Once, Run Anywhere" — the same bytecode runs on any device with a JVM. Robust, type-safe, and enterprise-ready. |
+| **Benefits** | "Write Once, Run Anywhere" â€” the same bytecode runs on any device with a JVM. Robust, type-safe, and enterprise-ready. |
 | **When to use it?** | Enterprise applications, Android development, large-scale systems, or any project requiring strict type safety and maintainability. |
 | **When NOT to use it?** | Simple scripts, rapid prototyping, or when startup time and memory usage are critical constraints. |
 
 ---
 
-## 📚 Learning Path
+## ðŸ“š Learning Path
 
 | Folder | Topic | What You'll Learn |
 |--------|-------|-------------------|
@@ -27,7 +27,7 @@ This section covers the key concepts to master Java, moving from simple scripts 
 
 ---
 
-## 🧠 OOP: Object-Oriented Programming Made Easy
+## ðŸ§  OOP: Object-Oriented Programming Made Easy
 
 OOP is a way of programming where we mimic the real world using "blueprints" and "physical things".
 
@@ -64,7 +64,7 @@ myCat.meow();
 
 ---
 
-## 🚨 Best Practices and Structure in Java
+## ðŸš¨ Best Practices and Structure in Java
 
 Unlike Python or JS (where you can have loose files), **Java hates mess**.
 
@@ -74,14 +74,14 @@ If you have a `Sum.java` file loose on your desktop, you're using it wrong. Java
 *Correct structure of a real project:*
 ```text
 src/
- └── main/
-       └── java/
-            └── com/
-                 └── mycompany/
-                      └── myproject/
-                           ├── models/ (Your classes like Cat or Dog)
-                           ├── services/ (Business logic)
-                           └── Main.java (Entry point)
+ â””â”€â”€ main/
+       â””â”€â”€ java/
+            â””â”€â”€ com/
+                 â””â”€â”€ mycompany/
+                      â””â”€â”€ myproject/
+                           â”œâ”€â”€ models/ (Your classes like Cat or Dog)
+                           â”œâ”€â”€ services/ (Business logic)
+                           â””â”€â”€ Main.java (Entry point)
 ```
 
 ### 2. Use Interfaces to Decouple Code
@@ -99,10 +99,14 @@ In professional Java, we rarely use deep direct inheritance (extends) because it
 
 ---
 
-## 📚 Technical Glossary
+## ðŸ“š Technical Glossary
 
 - **JVM (Java Virtual Machine):** The engine that executes Java bytecode. It provides the "write once, run anywhere" capability.
 - **Package:** A namespace that organizes classes into logical groups, mapped to folder structure.
 - **Wrapper Class:** Classes like `Integer`, `Double` that wrap primitive types to make them behave like objects.
 - **Interface:** A contract that defines what methods a class must implement, without specifying how.
 - **SOLID:** Five principles (SRP, OCP, LSP, ISP, DIP) for writing maintainable, scalable OOP code.
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: Architecture](../ARCHITECTURE_AND_BEST_PRACTICES/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: JavaScript](../JS/README.md)

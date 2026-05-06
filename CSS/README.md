@@ -50,3 +50,7 @@ The number one beginner mistake is fighting the browser using `position: absolut
 - **Flexbox:** A CSS layout mode for aligning items in one dimension (row or column).
 - **CSS Grid:** A CSS layout mode for positioning items in two dimensions (rows and columns).
 - **Preprocessor:** A tool like SCSS or SASS that extends CSS with variables, nesting, and functions, compiling to regular CSS.
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: JavaScript](../JS/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: HTML](../HTML/README.md)

@@ -1,7 +1,5 @@
 # 03 — Responsive Architecture
 
-[⬅️ Previous: 02-Flexbox-and-Grid](../02-Flexbox-and-Grid/README.md) | [⬅️ Back to Parent](../README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -402,3 +400,5 @@ p {
 > "Responsive design isn't a feature. It's the baseline. If your site doesn't work on mobile, it doesn't work for the majority of users."
 >
 > "Container queries are the future. Once browsers fully support them, responsive components will finally be truly portable — the same component can adapt whether it's in a sidebar or main area."
+
+[⬅️ Previous: 02-Flexbox-and-Grid](../02-Flexbox-and-Grid/README.md) | [⬅️ Back to Parent](../README.md)

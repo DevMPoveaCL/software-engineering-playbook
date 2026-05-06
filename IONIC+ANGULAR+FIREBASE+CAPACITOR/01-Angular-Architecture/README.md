@@ -148,8 +148,7 @@ export class AuthGuard implements CanActivate {
 
 ## 🔗 Related Topics
 
-- **[⬅️ Back to Parent](../README.md)**
-- **[➡️ Next: Ionic UI](../02-Ionic-UI/README.md)**
+[⬅️ Back to Parent](../README.md) | [➡️ Next: Ionic UI](../02-Ionic-UI/README.md)
 
 ---
 

@@ -1,7 +1,5 @@
 # 02 — Flexbox and Grid
 
-[⬅️ Previous: 01-Box-Model-and-Flow](../01-Box-Model-and-Flow/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03-Responsive-Architecture](../03-Responsive-Architecture/README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -381,3 +379,5 @@ This folder teaches the **two modern CSS layout systems** — Flexbox for one-di
 > "If you find yourself using `float` in 2024, stop. Flexbox handles anything float did, cleaner. Grid handles anything float couldn't."
 >
 > "Flexbox is for alignment (making things line up nicely). Grid is for layout (defining the structure of space). Most components need flexbox. Most pages need grid."
+
+[⬅️ Previous: 01-Box-Model-and-Flow](../01-Box-Model-and-Flow/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03-Responsive-Architecture](../03-Responsive-Architecture/README.md)

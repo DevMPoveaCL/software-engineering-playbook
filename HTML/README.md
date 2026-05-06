@@ -48,3 +48,7 @@ In professional development, **semantics is law**. You must use tags that exactl
 - **SEO (Search Engine Optimization):** The technique of making your page appear first on Google. Good semantic HTML dramatically improves SEO.
 - **Tag:** Words enclosed in angle brackets `< >` that tell the browser what the text is.
 - **Accessibility (a11y):** Designing pages that can be used by everyone, including people with visual, motor, or cognitive disabilities.
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: CSS](../CSS/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: React + SpringBoot](../REACT+SPRINGBOOT/README.md)

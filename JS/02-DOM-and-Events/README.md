@@ -1,7 +1,5 @@
 # 02 — DOM and Events
 
-[⬅️ Previous: 01 Core-Syntax-and-Types](../01-Core-Syntax-and-Types/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 Async-and-APIs](../03-Async-and-APIs/README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -339,3 +337,5 @@ document.querySelector(".list").addEventListener("click", (e) => {
 > "Event delegation isn't just a performance trick — it's how scalable DOM code works. One listener handles 1000 items, not 1000 listeners fighting over memory."
 >
 > "Your page should work with keyboard navigation alone. If you only tested with the mouse, you tested nothing."
+
+[⬅️ Previous: 01 Core-Syntax-and-Types](../01-Core-Syntax-and-Types/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 Async-and-APIs](../03-Async-and-APIs/README.md)

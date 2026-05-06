@@ -58,3 +58,7 @@ In this section we'll group the rules and regulations that ensure our interfaces
 
 > **Practical Conclusion:**
 > A spectacular design with aggressive animations (like a vault opening on scroll) can be legally sound **if the main movement is initiated by the user** (scroll) and if we give them the tools to stop the background loop. Good UI code always considers the health and comfort of its end user.
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: SQL](../SQL/README.md) | [🏠 Master Index](../README.md)

@@ -51,3 +51,7 @@ JavaScript (JS) is a **dynamic and asynchronous** language. It doesn't read top-
 - **Vanilla JS:** Term used to refer to pure JavaScript, without any framework (like React or Angular) or external library installed.
 - **Hoisting:** JavaScript's behavior of moving declarations to the top of the scope before execution, which can cause unexpected behavior with `var`.
 - **Spread Operator:** The `...` syntax that expands an iterable (like an array) into individual elements.
+
+---
+### 🔗 Global Navigation
+[⬅️ Previous Topic: JAVA](../JAVA/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: CSS](../CSS/README.md)
