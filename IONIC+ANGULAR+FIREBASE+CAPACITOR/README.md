@@ -84,7 +84,6 @@ Web App ──► iOS (.ipa)
 ## 🔗 Navigate the Knowledge Tree
 
 - **[⬅️ Back to Root README](../README.md)**
-- **[⬅️ Previous Topic: React + SpringBoot](../REACT+SPRINGBOOT/README.md)**
 
 ---
 

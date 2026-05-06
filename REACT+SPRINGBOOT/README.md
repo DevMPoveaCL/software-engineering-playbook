@@ -73,7 +73,6 @@ Frontend                          Backend
 ## 🔗 Navigate the Knowledge Tree
 
 - **[⬅️ Back to Root README](../README.md)**
-- **[➡️ Next Topic: Ionic + Angular + Firebase + Capacitor](../IONIC+ANGULAR+FIREBASE+CAPACITOR/README.md)**
 
 ---
 
