@@ -1,7 +1,5 @@
 # 03 — Cognitive Doc Design
 
-[⬅️ Previous: 02 Accessibility (WCAG)](../02-Accessibility-WCAG/README.md) | [⬅️ Back to Parent](../README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -357,3 +355,5 @@ align-items: center;</code></pre>
 > "The best documentation doesn't tell users everything. It tells them exactly what they need to know right now, and makes the rest discoverable."
 >
 > "If you have to explain your documentation structure, the structure is wrong. Users should never feel lost."
+
+[⬅️ Previous: 02 Accessibility (WCAG)](../02-Accessibility-WCAG/README.md) | [⬅️ Back to Parent](../README.md)

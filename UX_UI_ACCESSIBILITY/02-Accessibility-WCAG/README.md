@@ -1,7 +1,5 @@
 # 02 — Accessibility (WCAG)
 
-[⬅️ Previous: 01 Visual Design Rules](../01-Visual-Design-Rules/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 Cognitive Doc Design](../03-Cognitive-Doc-Design/README.md)
-
 ---
 
 ## 🎯 What This Folder Covers
@@ -357,3 +355,5 @@ at $40k in January, peaked at $60k in March...</p>
 > "Accessibility is not a feature. It's a quality of the product baseline. Like security, it's far cheaper to build it in from the start than to retrofit it later."
 >
 > "If you have to choose ONE thing to fix: Make your page keyboard-navigable. That's the single highest-impact accessibility improvement."
+
+[⬅️ Previous: 01 Visual Design Rules](../01-Visual-Design-Rules/README.md) | [⬅️ Back to Parent](../README.md) | [➡️ Next: 03 Cognitive Doc Design](../03-Cognitive-Doc-Design/README.md)
