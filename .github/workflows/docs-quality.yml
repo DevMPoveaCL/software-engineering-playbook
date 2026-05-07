@@ -25,13 +25,11 @@ jobs:
 
       # ── Markdown consistency ────────────────────────────────────────────────
       - name: Lint Markdown
-        uses: mandarbajpai/markdownlint-cli2-action@v1
-        with:
-          files: "**/*.md"
-          ignorePaths: |
-            .atl/**
-            .github/ISSUE_TEMPLATE/**
-            .github/PULL_REQUEST_TEMPLATE.md
+        run: >-
+          npx --yes markdownlint-cli "**/*.md"
+          --ignore ".atl/**"
+          --ignore ".github/ISSUE_TEMPLATE/**"
+          --ignore ".github/PULL_REQUEST_TEMPLATE.md"
 
       # ── Link integrity ──────────────────────────────────────────────────────
       - name: Check Links
