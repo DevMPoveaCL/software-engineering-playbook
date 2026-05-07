@@ -1,0 +1,14 @@
+# Markdownlint configuration for software-engineering-playbook
+# Disables rules that conflict with the didactic structure of this playbook.
+#
+# MD025: Multiple top-level headings — allowed because topic READMEs may
+#        restate the topic title as an H1 alongside an H2 section overview.
+# MD041: First line heading — allowed; H1 is optional for topic introductions.
+# MD047: Single trailing newline — allowed; some files intentionally omit the
+#        final newline to keep diffs clean on appended content.
+# MD013: Line length — disabled; long code/resource links are common here.
+
+MD025: false
+MD041: false
+MD047: false
+MD013: false

@@ -138,9 +138,11 @@ These principles are not slogans. They are decision-making tools. Use them when 
 
 ## 🤝 Contributions
 
-This repository is personal, but it is also open for improvement.
+This repository is **maintainer-curated** to preserve its teaching voice, progressive structure, and conceptual sequencing.
 
-If you spot an error, a broken link, an unclear explanation, or a better way to teach a concept, feel free to open an issue or pull request. The best documentation is not the one that sounds impressive; it is the one that helps someone understand faster and with less friction.
+**If you spot an error, a broken link, or have a suggestion for how to teach something better, open an issue.** Do not open a content pull request directly — we ask that you let us discuss the change first so we can keep the playbook coherent for everyone.
+
+Before contributing, read the [**Contribution Guidelines**](./CONTRIBUTING.md) to understand our issue-first workflow and what types of changes are welcome without prior discussion.
 
 ---
 

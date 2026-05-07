@@ -1,0 +1,61 @@
+name: Documentation Quality
+
+on:
+  pull_request:
+    paths: ["**.md"]
+  push:
+    branches: [main]
+    paths: ["**.md"]
+
+jobs:
+  quality-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── Markdown consistency ────────────────────────────────────────────────
+      - name: Lint Markdown
+        uses: mandarbajpai/markdownlint-cli2-action@v1
+        with:
+          files: "**/*.md"
+          ignorePaths:
+            - ".atl/**"
+            - ".github/ISSUE_TEMPLATE/**"
+            - ".github/PULL_REQUEST_TEMPLATE.md"
+
+      # ── Link integrity ──────────────────────────────────────────────────────
+      - name: Check Links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: "--config=.lychee.toml '**/*.md' --exclude-path='.atl/**' --exclude-path='.github/ISSUE_TEMPLATE/**' --exclude-path='.github/PULL_REQUEST_TEMPLATE.md'"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Repository structure — level progression ────────────────────────────
+      - name: Enforce topic level progression
+        run: |
+          MISSING_LEVELS=""
+
+          for dir in CSS DOCKER GIT HTML JAVA JS NETWORKING SQL UX_UI_ACCESSIBILITY "IONIC+ANGULAR+FIREBASE+CAPACITOR" "REACT+SPRINGBOOT" ARCHITECTURE_AND_BEST_PRACTICES; do
+            if [ ! -d "$dir" ]; then
+              continue
+            fi
+
+            for level in 01 02 03; do
+              MATCH=$(find "$dir" -maxdepth 1 -type d -name "${level}-*" | wc -l)
+              if [ "$MATCH" -eq 0 ]; then
+                MISSING_LEVELS="${MISSING_LEVELS}  ${dir}/: missing ${level}-* subdirectory\n"
+              fi
+            done
+          done
+
+          if [ -n "$MISSING_LEVELS" ]; then
+            echo "❌ Topic directory level progression violations:"
+            echo -e "$MISSING_LEVELS"
+            echo ""
+            echo "Each topic directory must contain exactly three subdirectories: 01-*, 02-*, 03-*"
+            exit 1
+          fi
+
+          echo "✅ All topic directories follow the 01/02/03 level progression."
