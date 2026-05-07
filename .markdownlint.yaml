@@ -14,6 +14,9 @@
 # MD036: Emphasis-as-heading is allowed for didactic callouts.
 # MD040: Some conceptual diagrams use plain fences without a language.
 # MD060: Existing tables use compact style; this check should not rewrite history.
+# MD024: Repeated didactic subheadings like "The Rule" and "Analogy" are
+#        intentional inside repeated concept patterns.
+# MD058: Some compact intro sections place tables close to surrounding text.
 
 MD025: false
 MD041: false
@@ -27,3 +30,5 @@ MD034: false
 MD036: false
 MD040: false
 MD060: false
+MD024: false
+MD058: false
