@@ -1,0 +1,12 @@
+# Lychee configuration for software-engineering-playbook
+# Excludes link patterns that are not verifiable in CI or are local-only.
+
+# Exclude URI patterns that are intentionally not checked in CI.
+exclude = [
+  "mailto:.*",
+  "http://localhost.*",
+  "file://.*"
+]
+
+# Allow relative markdown links like [Text](./path) — the workflow runs lychee
+# with filesystem-aware checks for repository files.
