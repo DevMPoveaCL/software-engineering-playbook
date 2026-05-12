@@ -18,20 +18,25 @@ Understanding Networking sets you apart from "code ninjas" and moves you toward 
 ## 🧠 Best Practices and Key Concepts
 
 ### 1. HTTP Protocol and Status Codes
+
 Every time you request a webpage or submit a form, the server responds with a number (Status). Mastering these codes saves you headaches:
+
 - **`2xx` (e.g., 200 OK):** Everything went perfectly.
 - **`3xx` (e.g., 301 Redirect):** The resource moved to another location.
 - **`4xx` (e.g., 404 Not Found, 401 Unauthorized):** You (the client/frontend dev) messed up. You sent data incorrectly or requested something that doesn't exist.
 - **`5xx` (e.g., 500 Internal Server Error):** I (the Server/Backend) crashed and failed on my own.
 
 ### 2. Ports — The "Doors" of a Building
+
 A server (IP) is like a physical building. Ports are the office doors.
+
 - To send Email, you knock on door (port) `25`.
 - To browse an insecure website (HTTP), you enter through door `80`.
 - If the site is secure (HTTPS with the padlock), you enter through the secure door `443`.
 - *For architectural security: All doors you don't use should be blocked by a Guard (Firewall).*
 
 ### 3. Security and State: JWT (JSON Web Token)
+
 HTTP connections have no "memory" (*Stateless*). Every time you click, the server forgets who you are. To fix this, we use JWT: a temporary credential your browser shows the server on each request to remind it: *"Hey, it's still me, still logged in!"*
 
 > **Didactic Tip:** If an interview asks about the difference between URI and URL, remember this: **URI** is the exact "full name" of a resource in the universe. **URL** gives you the name AND the address (how to get there by taxi) via the `https://` protocol. Every URL is a URI, but not vice versa.
@@ -58,7 +63,9 @@ HTTP connections have no "memory" (*Stateless*). Every time you click, the serve
 > **Start here if you're new:** Begin with [Web Protocols](./01-Web-Protocols/README.md) to understand the foundation, then explore [Dev Ports](./02-Dev-Ports-and-Envs/README.md) for practical development.
 
 ---
+
 ### 🔗 Global Navigation
+
 [⬅️ Previous Topic: Docker](../DOCKER/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: API and Interface Design](../API_AND_INTERFACE_DESIGN/README.md)
 <br>
 **[⬇️ Dive In: 01-Web-Protocols](./01-Web-Protocols/README.md)**

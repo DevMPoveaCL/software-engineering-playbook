@@ -48,7 +48,9 @@ Think of it as a massive, excellently organized office file cabinet, full of dra
 - **CRUD:** Acronym for **C**reate, **R**ead, **U**pdate, **D**elete. The four basic operations of any data system.
 
 ---
+
 ### 🔗 Global Navigation
+
 [⬅️ Previous Topic: API and Interface Design](../API_AND_INTERFACE_DESIGN/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: UX, UI & Accessibility](../UX_UI_ACCESSIBILITY/README.md)
 <br>
 **[⬇️ Dive In: 01-Relational-Design](./01-Relational-Design/README.md)**
