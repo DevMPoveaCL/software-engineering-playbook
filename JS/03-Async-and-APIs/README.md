@@ -262,6 +262,8 @@ const [users, posts] = await Promise.all([
 
 ## 5. Fetch API — The HTTP Client
 
+> 📌 **Boundary:** This folder teaches API **consumption** from JavaScript (fetch, async flow, error handling). For API **interface/style design** decisions (REST vs GraphQL/gRPC/WebSocket/Webhooks/WebRTC/SOAP), see [`../../API_AND_INTERFACE_DESIGN/README.md`](../../API_AND_INTERFACE_DESIGN/README.md).
+
 ### How Fetch Works
 
 ```

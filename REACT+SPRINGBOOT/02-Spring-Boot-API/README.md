@@ -42,7 +42,7 @@ Spring Boot is a **Java framework** that makes building REST APIs effortless. It
 
 ---
 
-## 🎯 REST API Design
+## 🎯 API Endpoint Conventions (Implementation Scope)
 
 | What to do ✅ | What NOT to do ❌ | Why |
 |--------------|-------------------|-----|
@@ -59,6 +59,8 @@ Spring Boot is a **Java framework** that makes building REST APIs effortless. It
 | `POST` | Create new resource | `POST /pizzas` |
 | `PUT` | Update entire resource | `PUT /pizzas/1` |
 | `DELETE` | Remove resource | `DELETE /pizzas/1` |
+
+> 📌 **Boundary:** This chapter focuses on implementing endpoints in Spring Boot. For API contract theory and style selection (REST vs GraphQL/gRPC/WebSocket/Webhooks/WebRTC/SOAP), use [`../../API_AND_INTERFACE_DESIGN/README.md`](../../API_AND_INTERFACE_DESIGN/README.md).
 
 ---
 

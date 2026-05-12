@@ -51,7 +51,7 @@ HTTP connections have no "memory" (*Stateless*). Every time you click, the serve
 
 | Module | Description |
 |--------|-------------|
-| [🌐 Web Protocols](./01-Web-Protocols/README.md) | HTTP methods, status codes, REST, request/response anatomy |
+| [🌐 Web Protocols](./01-Web-Protocols/README.md) | HTTP methods, status codes, and request/response anatomy (transport/protocol focus) |
 | [🚪 Dev Ports and Environments](./02-Dev-Ports-and-Envs/README.md) | Common dev ports table, Docker environments, debugging |
 | [🔐 Security and JWT](./03-Security-and-JWT/README.md) | JWT structure, flow, OAuth 2.0, security best practices |
 
@@ -62,3 +62,11 @@ HTTP connections have no "memory" (*Stateless*). Every time you click, the serve
 [⬅️ Previous Topic: Docker](../DOCKER/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: SQL](../SQL/README.md)
 <br>
 **[⬇️ Dive In: 01-Web-Protocols](./01-Web-Protocols/README.md)**
+
+---
+
+## 🧭 Boundary Note: Networking vs API Design
+
+- This topic owns **transport and protocol foundations** (HTTP mechanics, ports, TLS, request/response transport).
+- The canonical topic for **API contract and style design** (REST, GraphQL, gRPC, WebSocket, Webhooks, WebRTC, SOAP) lives in:
+  - [`../API_AND_INTERFACE_DESIGN/README.md`](../API_AND_INTERFACE_DESIGN/README.md)
