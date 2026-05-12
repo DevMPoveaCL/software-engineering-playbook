@@ -59,7 +59,7 @@ HTTP connections have no "memory" (*Stateless*). Every time you click, the serve
 
 ---
 ### 🔗 Global Navigation
-[⬅️ Previous Topic: Docker](../DOCKER/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: SQL](../SQL/README.md)
+[⬅️ Previous Topic: Docker](../DOCKER/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: API and Interface Design](../API_AND_INTERFACE_DESIGN/README.md)
 <br>
 **[⬇️ Dive In: 01-Web-Protocols](./01-Web-Protocols/README.md)**
 
