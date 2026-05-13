@@ -18,9 +18,11 @@
 ## 1) GraphQL
 
 ### Problem
+
 REST endpoints can overfetch or underfetch when different clients need different field combinations.
 
 ### Mental Model
+
 GraphQL is a **typed query language over a graph schema**. Clients request shape; server resolves fields.
 
 ### Flow
@@ -44,20 +46,24 @@ query UserCard {
 ```
 
 ### Strengths
+
 - Precision payloads per client
 - Strong schema introspection
 - Powerful for multi-client products
 
 ### Weaknesses
+
 - Resolver complexity and N+1 traps
 - Caching and cost control need explicit governance
 
 ### Common Mistakes
+
 - No query depth/complexity limits
 - No DataLoader-like batching for N+1
 - Exposing internal topology as schema
 
 ### Use / Avoid
+
 - **Use when:** many clients need different views over related entities.
 - **Avoid when:** you only need simple CRUD and want minimal operational overhead.
 
@@ -66,9 +72,11 @@ query UserCard {
 ## 2) gRPC
 
 ### Problem
+
 Internal service-to-service communication needs low latency, strict contracts, and codegen across teams.
 
 ### Mental Model
+
 gRPC is **remote procedure calls over typed Protobuf contracts**.
 
 ### Flow
@@ -92,20 +100,24 @@ message GetUserResponse { string id = 1; string name = 2; }
 ```
 
 ### Strengths
+
 - Fast binary serialization
 - Contract-first, strongly typed
 - Native streaming support
 
 ### Weaknesses
+
 - Harder browser/native web direct usage
 - Debugging less human-readable than JSON
 
 ### Common Mistakes
+
 - Breaking field numbering in `.proto`
 - Mixing public edge concerns into internal RPC contracts
 - Weak observability/metadata propagation
 
 ### Use / Avoid
+
 - **Use when:** internal microservices require strict contracts and performance.
 - **Avoid when:** public API ecosystem expects plain HTTP/JSON interoperability.
 
@@ -114,9 +126,11 @@ message GetUserResponse { string id = 1; string name = 2; }
 ## 3) WebSocket
 
 ### Problem
+
 Polling every few seconds for changing data is wasteful and slow for live UX.
 
 ### Mental Model
+
 WebSocket is a **persistent bidirectional tunnel** between client and server.
 
 ### Flow
@@ -135,19 +149,23 @@ Client connects (HTTP upgrade)
 ```
 
 ### Strengths
+
 - Real-time push without polling
 - Bidirectional communication for interactive apps
 
 ### Weaknesses
+
 - Stateful connection management complexity
 - Requires explicit backpressure and reconnect rules
 
 ### Common Mistakes
+
 - No heartbeat/timeout policy
 - Missing auth token rotation on long-lived sessions
 - No event schema versioning
 
 ### Use / Avoid
+
 - **Use when:** chat, live dashboards, collaborative tools, multiplayer interactions.
 - **Avoid when:** simple request/response suffices and infra should stay stateless.
 
@@ -156,9 +174,11 @@ Client connects (HTTP upgrade)
 ## 4) WebRTC
 
 ### Problem
+
 Realtime media (audio/video) through a central server can add high latency and cost.
 
 ### Mental Model
+
 WebRTC enables **peer-to-peer realtime media/data**, with signaling + ICE to establish paths.
 
 ### Flow
@@ -179,19 +199,23 @@ Peer A and Peer B exchange SDP/ICE via signaling server
 | 4 | Media/data channel starts |
 
 ### Strengths
+
 - Very low-latency peer communication
 - Built for browser-native media workflows
 
 ### Weaknesses
+
 - NAT/firewall traversal complexity
 - Operational dependency on TURN for hard networks
 
 ### Common Mistakes
+
 - Assuming direct P2P always succeeds
 - Ignoring fallback capacity planning for TURN
 - Treating signaling as an afterthought
 
 ### Use / Avoid
+
 - **Use when:** video/audio calls, realtime peer collaboration, data channels with low latency goals.
 - **Avoid when:** deterministic request/response APIs are all you need.
 

@@ -76,6 +76,11 @@ ROOT (Master Index)
 │   ├── 02-Dev-Ports-and-Envs
 │   └── 03-Security-and-JWT
 │
+├── 🔌 API_AND_INTERFACE_DESIGN
+│   ├── 01-API-Contracts-and-REST
+│   ├── 02-Query-RPC-and-Realtime-APIs
+│   └── 03-Integration-Governance-and-Legacy
+│
 ├── 🐘 SQL
 │   ├── 01-Relational-Design
 │   ├── 02-Queries-and-Joins
@@ -103,8 +108,9 @@ ROOT (Master Index)
 | 08 | 🐙 **[Git](./GIT)** | Version control fundamentals, GitHub collaboration, pull requests, and CI/CD workflows. | [Dive in](./GIT/01-Git-Fundamentals/README.md) |
 | 09 | 🐳 **[Docker](./DOCKER)** | Images, containers, volumes, storage, and multi-service local environments. | [Dive in](./DOCKER/01-Images-and-Containers/README.md) |
 | 10 | 🌎 **[Networking](./NETWORKING)** | Web protocols, ports, environments, authentication flows, security, and JWT. | [Dive in](./NETWORKING/01-Web-Protocols/README.md) |
-| 11 | 🐘 **[SQL](./SQL)** | Relational design, queries, joins, indexing, and performance fundamentals. | [Dive in](./SQL/01-Relational-Design/README.md) |
-| 12 | 🎨 **[UX/UI Accessibility](./UX_UI_ACCESSIBILITY)** | Visual design rules, WCAG accessibility, and documentation that reduces cognitive load. | [Dive in](./UX_UI_ACCESSIBILITY/01-Visual-Design-Rules/README.md) |
+| 11 | 🔌 **[API and Interface Design](./API_AND_INTERFACE_DESIGN)** | API contracts, style selection (REST/GraphQL/gRPC/WebSocket/Webhooks/WebRTC/SOAP), and governance guidance. | [Dive in](./API_AND_INTERFACE_DESIGN/01-API-Contracts-and-REST/README.md) |
+| 12 | 🐘 **[SQL](./SQL)** | Relational design, queries, joins, indexing, and performance fundamentals. | [Dive in](./SQL/01-Relational-Design/README.md) |
+| 13 | 🎨 **[UX/UI Accessibility](./UX_UI_ACCESSIBILITY)** | Visual design rules, WCAG accessibility, and documentation that reduces cognitive load. | [Dive in](./UX_UI_ACCESSIBILITY/01-Visual-Design-Rules/README.md) |
 
 ---
 

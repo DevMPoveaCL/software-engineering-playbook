@@ -81,6 +81,7 @@ Use this topic for **interface strategy**. Link out for transport internals, pla
 ---
 
 ### 🔗 Global Navigation
+
 [⬅️ Previous Topic: Networking](../NETWORKING/README.md) | [🏠 Master Index](../README.md) | [➡️ Next Topic: SQL](../SQL/README.md)
 <br>
 **[⬇️ Dive In: 01-API-Contracts-and-REST](./01-API-Contracts-and-REST/README.md)**

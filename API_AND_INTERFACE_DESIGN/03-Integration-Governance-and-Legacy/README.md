@@ -16,9 +16,11 @@
 ## 1) Webhooks
 
 ### Problem
+
 System A needs to notify System B asynchronously when events happen, without B polling constantly.
 
 ### Mental Model
+
 Webhook = **event callback contract** over HTTP.
 
 Producer sends event to consumer URL when event occurs.
@@ -44,19 +46,23 @@ Event occurs on Producer
 ```
 
 ### Strengths
+
 - Asynchronous and scalable integration pattern
 - Decouples producer timing from consumer polling cadence
 
 ### Weaknesses
+
 - Delivery is often at-least-once (duplicates are possible)
 - Consumer endpoint reliability becomes critical
 
 ### Common Mistakes
+
 - No signature verification
 - No idempotency key / dedup by event ID
 - Retry policy without dead-letter handling
 
 ### Use / Avoid
+
 - **Use when:** event notifications to external partners or internal bounded contexts.
 - **Avoid when:** strict immediate response data is required in same user flow.
 
@@ -65,9 +71,11 @@ Event occurs on Producer
 ## 2) SOAP
 
 ### Problem
+
 Some enterprise ecosystems require strict formal contracts, advanced WS-* standards, and long-lived legacy interoperability.
 
 ### Mental Model
+
 SOAP = **XML message protocol with WSDL-defined contract**.
 
 ### Flow
@@ -93,18 +101,22 @@ Client reads WSDL
 ```
 
 ### Strengths
+
 - Formal contract governance (WSDL/XSD)
 - Mature support in legacy enterprise environments
 
 ### Weaknesses
+
 - Verbose payloads and tooling overhead
 - Slower onboarding for modern web teams
 
 ### Common Mistakes
+
 - Assuming SOAP is “bad by default” instead of evaluating constraints
 - Mixing SOAP and REST semantics in a single contract surface without clear boundary
 
 ### Use / Avoid
+
 - **Use when:** enterprise/regulated partners require formal SOAP contracts.
 - **Avoid when:** modern public web API simplicity and developer experience are top priority.
 
