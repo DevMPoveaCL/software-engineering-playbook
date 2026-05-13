@@ -1,0 +1,34 @@
+# Markdownlint configuration for software-engineering-playbook
+# Disables rules that conflict with the didactic structure of this playbook.
+#
+# MD025: Multiple top-level headings — allowed because topic READMEs may
+#        restate the topic title as an H1 alongside an H2 section overview.
+# MD041: First line heading — allowed; H1 is optional for topic introductions.
+# MD047: Single trailing newline — allowed; some files intentionally omit the
+#        final newline to keep diffs clean on appended content.
+# MD013: Line length — disabled; long code/resource links are common here.
+# MD022/MD031/MD032: Blank-line strictness is intentionally relaxed because
+#        many lessons use compact teaching blocks with headings, lists, and code.
+# MD033: Inline HTML is allowed for navigation spacing already used in the repo.
+# MD034: Bare URLs are allowed in resource sections where the URL is the lesson.
+# MD036: Emphasis-as-heading is allowed for didactic callouts.
+# MD040: Some conceptual diagrams use plain fences without a language.
+# MD060: Existing tables use compact style; this check should not rewrite history.
+# MD024: Repeated didactic subheadings like "The Rule" and "Analogy" are
+#        intentional inside repeated concept patterns.
+# MD058: Some compact intro sections place tables close to surrounding text.
+
+MD025: false
+MD041: false
+MD047: false
+MD013: false
+MD022: false
+MD031: false
+MD032: false
+MD033: false
+MD034: false
+MD036: false
+MD040: false
+MD060: false
+MD024: false
+MD058: false
