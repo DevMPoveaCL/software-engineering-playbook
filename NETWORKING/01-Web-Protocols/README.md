@@ -123,11 +123,11 @@ Imagine you're at a restaurant:
 
 ---
 
-## 🏗️ REST: The API Design Standard
+## 🏗️ REST: Protocol-Level Preview
 
 ### What is REST?
 
-REST (Representational State Transfer) is a **set of conventions** for designing APIs that are predictable and easy to use.
+REST (Representational State Transfer) is a **set of conventions** for designing APIs that are predictable and easy to use. In this Networking folder we only keep the **HTTP/protocol-facing basics**.
 
 ### RESTful URL Design
 
@@ -168,6 +168,8 @@ REST (Representational State Transfer) is a **set of conventions** for designing
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+> 📌 **Boundary:** Deep REST contract design (idempotency, versioning strategy, error semantics, compatibility) and style comparison with GraphQL/gRPC/WebSocket/Webhooks/WebRTC/SOAP is maintained in [`../../API_AND_INTERFACE_DESIGN/README.md`](../../API_AND_INTERFACE_DESIGN/README.md).
 
 ---
 

@@ -189,40 +189,15 @@
 
 ---
 
-## 📝 API Design Patterns
+## 📝 Boundary: System Design vs API Design
 
-### RESTful API Design
+System Design owns **distributed tradeoffs** (latency, consistency, scaling, resilience, queueing, observability).
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│   COLLECTION PATTERN                                             │
-│                                                                  │
-│   GET    /users              ← List all users (paginated)      │
-│   POST   /users              ← Create user                      │
-│   GET    /users/{id}         ← Get single user                 │
-│   PUT    /users/{id}         ← Replace user                     │
-│   PATCH  /users/{id}         ← Update user (partial)           │
-│   DELETE /users/{id}        ← Delete user                      │
-│                                                                  │
-│   NESTED RESOURCES                                              │
-│                                                                  │
-│   GET    /users/{id}/orders  ← All orders for user            │
-│   POST   /users/{id}/orders  ← Create order for user          │
-│   GET    /users/{id}/orders/{orderId} ← Specific order        │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
+Canonical API style/contract design (REST, GraphQL, gRPC, WebSocket, Webhooks, WebRTC, SOAP) is documented in:
 
-### GraphQL vs REST
+- [`../../API_AND_INTERFACE_DESIGN/README.md`](../../API_AND_INTERFACE_DESIGN/README.md)
 
-| Aspect | REST | GraphQL |
-|--------|------|---------|
-| **Data fetching** | Multiple endpoints | Single query |
-| **Over-fetching** | Returns all fields | Ask for what you need |
-| **Under-fetching** | N+1 problem possible | Can request all in one |
-| **Caching** | HTTP caching natural | Custom caching |
-| **Learning curve** | Simpler | Steeper |
+Use that topic for protocol-style selection and contract governance, then come back here to reason about system-level impact.
 
 ---
 
